@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar {
+    padding: 10px 100px !important;
+    box-shadow: 0px 0px 5px;
+    background-color: #F3F4F6;
+}
+.fa-wordpress {
+    color: #FB6503 !important;
+}
+.sign-up-button {
+    border-radius: 35px;
+    font-variant: small-caps;
+}
+.btn:hover {
+    color: #fb6603c3 !important;
+}
+.certificate-button {
+    background-color: #FFB602;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 4rem;
+    color: #000;
+    box-shadow: 0px 0px 2px #000;
+}
+.certificate-button:hover {
+    background-color: #fb6603c3 !important;
+    color: #fff !important;
+}
+.origin-link {
+    font-size: 18px;
+}
+.nav-link:hover {
+    color: #F3F4F6 !important;
+}
+.navbar-toggler {
+    outline: none !important;
+}
+.welcome-wrap {
+    padding-top: 150px !important;
+}
+.footer-icons {
+    border-radius: 50%;
+    background-color: #FB6503;
+}
+
+
+/* Body */
+.general-section {
+    padding: 20px 100px !important;
+    background-image: url('/css/images/pexx.jpg');
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-color: #28a74644;
+    background-position: center;
+    min-height: 88.5vh;
+}
+.general-section h1 {
+    font-size: 55px;
+}
+.certificate-of-origin-text {
+    color: #0f0;
+}
+.slideInLeft {
+    -webkit-animation-name: slideInLeft;
+    animation-name: slideInLeft;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes slideInLeft {
+    0% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    }
+    }
+    @keyframes slideInLeft {
+    0% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    }
+    } 
+
+    .fadeIn {
+        -webkit-animation-name: fadeIn;
+        animation-name: fadeIn;
+        -webkit-animation-duration: 5s;
+        animation-duration: 10s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        }
+        @-webkit-keyframes fadeIn {
+        0% {opacity: 0;}
+        100% {opacity: 1;}
+        }
+        @keyframes fadeIn {
+        0% {opacity: 0;}
+        100% {opacity: 1;}
+        }
+        
+    .video-image {
+        width: 40rem;
+        border-radius: 20px;
+    }
+
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        padding: 7px !important;
+    }
+    .nav-item, .certificate-button {
+        margin-left: 5px !important;
+    }
+    .general-section {
+        padding: 10px !important;
+    }
+    .welcome-wrap {
+        padding-top: 50px !important;
+    }
+    .sign-up-button {
+        display: block;
+    }
+    .welcome-wrap p {
+        font-size: 12px;
+    }
+    .welcome-wrap input {
+        margin-top: 10px !important;
+        /* margin-right: 0px !important; */
+    }
+    .animation-wrap {
+        padding-top: 15px !important;
+    }
+    .video-image {
+        width: 100%;
+    }
+}
